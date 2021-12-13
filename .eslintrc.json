@@ -1,0 +1,17 @@
+{
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 2021,
+        "sourceType": "module",
+        "impliedStrict": true
+    },
+    "env": {
+        "es2020": true,
+        "browser": true
+    },
+    "rules": {
+        "no-var": 2,
+        "no-underscore-dangle": "off",
+        "curly": "error"
+    }
+}
